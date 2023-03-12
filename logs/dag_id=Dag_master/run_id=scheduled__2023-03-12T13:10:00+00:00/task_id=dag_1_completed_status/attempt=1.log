@@ -1,0 +1,28 @@
+[2023-03-12T13:11:00.996+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: Dag_master.dag_1_completed_status scheduled__2023-03-12T13:10:00+00:00 [queued]>
+[2023-03-12T13:11:01.004+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: Dag_master.dag_1_completed_status scheduled__2023-03-12T13:10:00+00:00 [queued]>
+[2023-03-12T13:11:01.004+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-12T13:11:01.004+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-03-12T13:11:01.004+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-12T13:11:01.019+0000] {taskinstance.py:1300} INFO - Executing <Task(ExternalTaskSensor): dag_1_completed_status> on 2023-03-12 13:10:00+00:00
+[2023-03-12T13:11:01.027+0000] {standard_task_runner.py:55} INFO - Started process 335 to run task
+[2023-03-12T13:11:01.030+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'Dag_master', 'dag_1_completed_status', 'scheduled__2023-03-12T13:10:00+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/child_master_dag.py', '--cfg-path', '/tmp/tmppci5acm2']
+[2023-03-12T13:11:01.030+0000] {standard_task_runner.py:83} INFO - Job 17: Subtask dag_1_completed_status
+[2023-03-12T13:11:01.090+0000] {task_command.py:388} INFO - Running <TaskInstance: Dag_master.dag_1_completed_status scheduled__2023-03-12T13:10:00+00:00 [running]> on host 85f2bfd08863
+[2023-03-12T13:11:01.165+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=Dag_master
+AIRFLOW_CTX_TASK_ID=dag_1_completed_status
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-12T13:10:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-03-12T13:10:00+00:00
+[2023-03-12T13:13:01.309+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/sensors/base.py", line 215, in execute
+    raise AirflowSensorTimeout(message)
+airflow.exceptions.AirflowSensorTimeout: Sensor has timed out; run duration of 120.1440366699826 seconds exceeds the specified timeout of 120.
+[2023-03-12T13:13:01.316+0000] {taskinstance.py:1323} INFO - Immediate failure requested. Marking task as FAILED. dag_id=Dag_master, task_id=dag_1_completed_status, execution_date=20230312T131000, start_date=20230312T131100, end_date=20230312T131301
+[2023-03-12T13:13:01.328+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 17 for task dag_1_completed_status (Sensor has timed out; run duration of 120.1440366699826 seconds exceeds the specified timeout of 120.; 335)
+[2023-03-12T13:13:01.364+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-03-12T13:13:01.459+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

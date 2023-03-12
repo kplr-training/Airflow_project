@@ -1,0 +1,683 @@
+[2023-03-12T12:54:39.400+0000] {processor.py:153} INFO - Started process (PID=72) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:54:39.401+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T12:54:39.401+0000] {logging_mixin.py:137} INFO - [2023-03-12T12:54:39.401+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:54:39.406+0000] {logging_mixin.py:137} INFO - [2023-03-12T12:54:39.405+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T12:54:39.406+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:54:39.426+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.029 seconds
+[2023-03-12T12:55:09.686+0000] {processor.py:153} INFO - Started process (PID=177) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:55:09.687+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T12:55:09.688+0000] {logging_mixin.py:137} INFO - [2023-03-12T12:55:09.688+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:55:09.690+0000] {logging_mixin.py:137} INFO - [2023-03-12T12:55:09.690+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T12:55:09.691+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:55:09.712+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.028 seconds
+[2023-03-12T12:55:40.516+0000] {processor.py:153} INFO - Started process (PID=267) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:55:40.517+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T12:55:40.517+0000] {logging_mixin.py:137} INFO - [2023-03-12T12:55:40.517+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:55:40.520+0000] {logging_mixin.py:137} INFO - [2023-03-12T12:55:40.520+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T12:55:40.521+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:55:40.541+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.028 seconds
+[2023-03-12T12:56:11.536+0000] {processor.py:153} INFO - Started process (PID=381) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:56:11.537+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T12:56:11.538+0000] {logging_mixin.py:137} INFO - [2023-03-12T12:56:11.538+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:56:11.540+0000] {logging_mixin.py:137} INFO - [2023-03-12T12:56:11.540+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T12:56:11.541+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:56:11.566+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.033 seconds
+[2023-03-12T12:56:41.725+0000] {processor.py:153} INFO - Started process (PID=471) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:56:41.725+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T12:56:41.726+0000] {logging_mixin.py:137} INFO - [2023-03-12T12:56:41.726+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:56:41.729+0000] {logging_mixin.py:137} INFO - [2023-03-12T12:56:41.728+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T12:56:41.729+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:56:41.746+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.025 seconds
+[2023-03-12T12:57:12.710+0000] {processor.py:153} INFO - Started process (PID=585) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:57:12.711+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T12:57:12.711+0000] {logging_mixin.py:137} INFO - [2023-03-12T12:57:12.711+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:57:12.714+0000] {logging_mixin.py:137} INFO - [2023-03-12T12:57:12.713+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T12:57:12.714+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:57:12.735+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.028 seconds
+[2023-03-12T12:57:43.362+0000] {processor.py:153} INFO - Started process (PID=675) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:57:43.363+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T12:57:43.364+0000] {logging_mixin.py:137} INFO - [2023-03-12T12:57:43.364+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:57:43.368+0000] {logging_mixin.py:137} INFO - [2023-03-12T12:57:43.367+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T12:57:43.368+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:57:43.386+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.028 seconds
+[2023-03-12T12:58:14.138+0000] {processor.py:153} INFO - Started process (PID=774) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:58:14.139+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T12:58:14.139+0000] {logging_mixin.py:137} INFO - [2023-03-12T12:58:14.139+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:58:14.142+0000] {logging_mixin.py:137} INFO - [2023-03-12T12:58:14.141+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T12:58:14.142+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:58:14.162+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.027 seconds
+[2023-03-12T12:58:44.718+0000] {processor.py:153} INFO - Started process (PID=879) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:58:44.719+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T12:58:44.720+0000] {logging_mixin.py:137} INFO - [2023-03-12T12:58:44.720+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:58:44.722+0000] {logging_mixin.py:137} INFO - [2023-03-12T12:58:44.722+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T12:58:44.723+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T12:58:44.741+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.025 seconds
+[2023-03-12T13:00:35.380+0000] {processor.py:153} INFO - Started process (PID=72) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:00:35.381+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:00:35.382+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:00:35.382+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:00:35.388+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:00:35.387+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T13:00:35.388+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:00:35.451+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.074 seconds
+[2023-03-12T13:01:05.679+0000] {processor.py:153} INFO - Started process (PID=177) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:01:05.680+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:01:05.681+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:01:05.681+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:01:05.684+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:01:05.683+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T13:01:05.684+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:01:05.704+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.030 seconds
+[2023-03-12T13:01:36.541+0000] {processor.py:153} INFO - Started process (PID=267) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:01:36.542+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:01:36.543+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:01:36.543+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:01:36.546+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:01:36.545+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T13:01:36.546+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:01:36.571+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.032 seconds
+[2023-03-12T13:02:07.075+0000] {processor.py:153} INFO - Started process (PID=381) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:02:07.076+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:02:07.077+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:02:07.076+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:02:07.080+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:02:07.079+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T13:02:07.081+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:02:07.103+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.031 seconds
+[2023-03-12T13:02:38.012+0000] {processor.py:153} INFO - Started process (PID=471) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:02:38.014+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:02:38.014+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:02:38.014+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:02:38.017+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:02:38.017+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T13:02:38.018+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:02:38.036+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.026 seconds
+[2023-03-12T13:03:08.800+0000] {processor.py:153} INFO - Started process (PID=568) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:03:08.801+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:03:08.802+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:03:08.802+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:03:08.805+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:03:08.804+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T13:03:08.805+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:03:08.825+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.028 seconds
+[2023-03-12T13:03:39.683+0000] {processor.py:153} INFO - Started process (PID=675) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:03:39.684+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:03:39.684+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:03:39.684+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:03:39.687+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:03:39.687+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T13:03:39.688+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:03:39.705+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.025 seconds
+[2023-03-12T13:04:10.429+0000] {processor.py:153} INFO - Started process (PID=765) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:04:10.430+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:04:10.431+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:04:10.431+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:04:10.434+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:04:10.433+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T13:04:10.434+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:04:10.456+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.029 seconds
+[2023-03-12T13:04:41.156+0000] {processor.py:153} INFO - Started process (PID=879) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:04:41.157+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:04:41.158+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:04:41.158+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:04:41.162+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:04:41.161+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T13:04:41.162+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:04:41.179+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.026 seconds
+[2023-03-12T13:05:12.008+0000] {processor.py:153} INFO - Started process (PID=969) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:05:12.009+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:05:12.010+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:05:12.010+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:05:12.013+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:05:12.012+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T13:05:12.013+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:05:12.030+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.024 seconds
+[2023-03-12T13:05:42.590+0000] {processor.py:153} INFO - Started process (PID=1084) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:05:42.597+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:05:42.598+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:05:42.598+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:05:42.603+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:05:42.602+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.operators.sensors import ExternalTaskSensor
+ModuleNotFoundError: No module named 'airflow.operators.sensors'
+[2023-03-12T13:05:42.607+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:05:42.679+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.092 seconds
+[2023-03-12T13:06:11.474+0000] {processor.py:153} INFO - Started process (PID=1174) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:11.475+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:06:11.476+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:11.476+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:11.480+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:11.479+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.sensors import ExternalTaskSensor
+ImportError: cannot import name 'ExternalTaskSensor' from 'airflow.sensors' (/home/airflow/.local/lib/python3.7/site-packages/airflow/sensors/__init__.py)
+[2023-03-12T13:06:11.480+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:11.498+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.027 seconds
+[2023-03-12T13:06:19.765+0000] {processor.py:153} INFO - Started process (PID=1223) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:19.766+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:06:19.767+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:19.767+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:19.770+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:19.769+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 4
+    from air
+           ^
+SyntaxError: invalid syntax
+[2023-03-12T13:06:19.771+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:19.795+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.033 seconds
+[2023-03-12T13:06:21.828+0000] {processor.py:153} INFO - Started process (PID=1241) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:21.828+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:06:21.829+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:21.829+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:21.831+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:21.830+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 4
+    from airflow.
+                ^
+SyntaxError: invalid syntax
+[2023-03-12T13:06:21.832+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:21.849+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.025 seconds
+[2023-03-12T13:06:24.846+0000] {processor.py:153} INFO - Started process (PID=1242) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:24.847+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:06:24.847+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:24.847+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:24.849+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:24.848+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 4
+    from airflow.s
+                 ^
+SyntaxError: invalid syntax
+[2023-03-12T13:06:24.849+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:24.868+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.025 seconds
+[2023-03-12T13:06:26.863+0000] {processor.py:153} INFO - Started process (PID=1243) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:26.863+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:06:26.864+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:26.864+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:26.866+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:26.865+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 4
+    from airflow.sensors
+                       ^
+SyntaxError: invalid syntax
+[2023-03-12T13:06:26.866+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:26.885+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.025 seconds
+[2023-03-12T13:06:27.942+0000] {processor.py:153} INFO - Started process (PID=1244) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:27.943+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:06:27.943+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:27.943+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:27.945+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:27.944+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 4
+    from airflow.sensors
+                        ^
+SyntaxError: invalid syntax
+[2023-03-12T13:06:27.946+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:27.968+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.029 seconds
+[2023-03-12T13:06:29.965+0000] {processor.py:153} INFO - Started process (PID=1245) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:29.965+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:06:29.966+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:29.966+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:29.967+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:29.967+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 4
+    from airflow.sensors import
+                               ^
+SyntaxError: invalid syntax
+[2023-03-12T13:06:29.968+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:29.985+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.023 seconds
+[2023-03-12T13:06:33.013+0000] {processor.py:153} INFO - Started process (PID=1255) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:33.014+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:06:33.015+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:33.015+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:33.018+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:33.017+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.sensors import ExternalTaskSensor
+ImportError: cannot import name 'ExternalTaskSensor' from 'airflow.sensors' (/home/airflow/.local/lib/python3.7/site-packages/airflow/sensors/__init__.py)
+[2023-03-12T13:06:33.018+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:33.035+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.024 seconds
+[2023-03-12T13:06:36.042+0000] {processor.py:153} INFO - Started process (PID=1271) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:36.042+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:06:36.043+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:36.043+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:36.046+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:36.046+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.sensors import ExternalTaskSensor
+ImportError: cannot import name 'ExternalTaskSensor' from 'airflow.sensors' (/home/airflow/.local/lib/python3.7/site-packages/airflow/sensors/__init__.py)
+[2023-03-12T13:06:36.047+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:36.074+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.035 seconds
+[2023-03-12T13:06:40.092+0000] {processor.py:153} INFO - Started process (PID=1272) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:40.093+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:06:40.094+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:40.094+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:40.096+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:40.095+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 4
+    from airflow.sensors import
+                              ^
+SyntaxError: invalid syntax
+[2023-03-12T13:06:40.096+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:40.115+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.026 seconds
+[2023-03-12T13:06:43.130+0000] {processor.py:153} INFO - Started process (PID=1273) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:43.130+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:06:43.131+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:43.131+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:43.135+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:43.134+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.sensors import ExternalTaskSensor
+ImportError: cannot import name 'ExternalTaskSensor' from 'airflow.sensors' (/home/airflow/.local/lib/python3.7/site-packages/airflow/sensors/__init__.py)
+[2023-03-12T13:06:43.135+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:43.155+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.028 seconds
+[2023-03-12T13:06:44.156+0000] {processor.py:153} INFO - Started process (PID=1274) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:44.157+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:06:44.158+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:44.158+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:44.161+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:06:44.160+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.sensors import ExternalTaskSensor
+ImportError: cannot import name 'ExternalTaskSensor' from 'airflow.sensors' (/home/airflow/.local/lib/python3.7/site-packages/airflow/sensors/__init__.py)
+[2023-03-12T13:06:44.161+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:06:44.180+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.027 seconds
+[2023-03-12T13:07:01.907+0000] {processor.py:153} INFO - Started process (PID=63) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:07:01.909+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:07:01.910+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:07:01.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:07:01.913+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:07:01.912+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.sensors import ExternalTaskSensor
+ImportError: cannot import name 'ExternalTaskSensor' from 'airflow.sensors' (/home/airflow/.local/lib/python3.7/site-packages/airflow/sensors/__init__.py)
+[2023-03-12T13:07:01.913+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:07:01.932+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.028 seconds
+[2023-03-12T13:07:32.065+0000] {processor.py:153} INFO - Started process (PID=153) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:07:32.066+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:07:32.067+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:07:32.067+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:07:32.070+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:07:32.070+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.sensors import ExternalTaskSensor
+ImportError: cannot import name 'ExternalTaskSensor' from 'airflow.sensors' (/home/airflow/.local/lib/python3.7/site-packages/airflow/sensors/__init__.py)
+[2023-03-12T13:07:32.071+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:07:32.088+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.026 seconds
+[2023-03-12T13:08:02.139+0000] {processor.py:153} INFO - Started process (PID=266) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:08:02.140+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:08:02.141+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:08:02.141+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:08:02.143+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:08:02.142+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/child_master_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/child_master_dag.py", line 3, in <module>
+    from airflow.sensors import ExternalTaskSensor
+ImportError: cannot import name 'ExternalTaskSensor' from 'airflow.sensors' (/home/airflow/.local/lib/python3.7/site-packages/airflow/sensors/__init__.py)
+[2023-03-12T13:08:02.143+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:08:02.167+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.030 seconds
+[2023-03-12T13:08:18.829+0000] {processor.py:153} INFO - Started process (PID=332) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:08:18.830+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:08:18.831+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:08:18.831+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:08:18.847+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:08:19.019+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:08:19.019+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:Dag_master
+[2023-03-12T13:08:19.028+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:08:19.028+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:Dag_master
+[2023-03-12T13:08:19.034+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:08:19.034+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:Dag_master
+[2023-03-12T13:08:19.034+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:08:19.034+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:08:19.047+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:08:19.046+0000] {dag.py:2711} INFO - Creating ORM DAG for Dag_master
+[2023-03-12T13:08:19.063+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:08:19.063+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:07:00+00:00, run_after=2023-03-12T13:08:00+00:00
+[2023-03-12T13:08:19.078+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.252 seconds
+[2023-03-12T13:08:19.870+0000] {processor.py:153} INFO - Started process (PID=333) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:08:19.871+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:08:19.871+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:08:19.871+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:08:19.889+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:08:19.903+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:08:19.902+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:08:19.935+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:08:19.935+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:07:00+00:00, run_after=2023-03-12T13:08:00+00:00
+[2023-03-12T13:08:19.957+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.090 seconds
+[2023-03-12T13:08:56.864+0000] {processor.py:153} INFO - Started process (PID=63) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:08:56.865+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:08:56.865+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:08:56.865+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:08:56.880+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:08:56.957+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:08:56.957+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:08:56.987+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:08:56.987+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:07:00+00:00, run_after=2023-03-12T13:08:00+00:00
+[2023-03-12T13:08:57.007+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.145 seconds
+[2023-03-12T13:09:27.684+0000] {processor.py:153} INFO - Started process (PID=177) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:09:27.685+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:09:27.685+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:09:27.685+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:09:27.701+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:09:27.724+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:09:27.724+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:09:27.763+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:09:27.762+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:08:00+00:00, run_after=2023-03-12T13:09:00+00:00
+[2023-03-12T13:09:27.782+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.101 seconds
+[2023-03-12T13:09:58.602+0000] {processor.py:153} INFO - Started process (PID=267) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:09:58.603+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:09:58.603+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:09:58.603+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:09:58.620+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:09:58.640+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:09:58.640+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:09:58.672+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:09:58.672+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:08:00+00:00, run_after=2023-03-12T13:09:00+00:00
+[2023-03-12T13:09:58.689+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.090 seconds
+[2023-03-12T13:10:29.447+0000] {processor.py:153} INFO - Started process (PID=374) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:10:29.448+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:10:29.452+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:10:29.452+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:10:29.468+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:10:29.490+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:10:29.490+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:10:29.523+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:10:29.523+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:10:00+00:00, run_after=2023-03-12T13:11:00+00:00
+[2023-03-12T13:10:29.544+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.099 seconds
+[2023-03-12T13:10:59.682+0000] {processor.py:153} INFO - Started process (PID=481) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:10:59.683+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:10:59.683+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:10:59.683+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:10:59.698+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:10:59.720+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:10:59.720+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:10:59.760+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:10:59.760+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:10:00+00:00, run_after=2023-03-12T13:11:00+00:00
+[2023-03-12T13:10:59.777+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.098 seconds
+[2023-03-12T13:11:29.899+0000] {processor.py:153} INFO - Started process (PID=575) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:11:29.900+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:11:29.901+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:11:29.900+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:11:29.918+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:11:29.941+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:11:29.941+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:11:29.980+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:11:29.980+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:11:00+00:00, run_after=2023-03-12T13:12:00+00:00
+[2023-03-12T13:11:29.999+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.102 seconds
+[2023-03-12T13:12:00.096+0000] {processor.py:153} INFO - Started process (PID=689) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:12:00.097+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:12:00.097+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:12:00.097+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:12:00.113+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:12:00.136+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:12:00.136+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:12:00.170+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:12:00.170+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:11:00+00:00, run_after=2023-03-12T13:12:00+00:00
+[2023-03-12T13:12:00.188+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.095 seconds
+[2023-03-12T13:12:30.251+0000] {processor.py:153} INFO - Started process (PID=783) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:12:30.252+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:12:30.253+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:12:30.253+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:12:30.269+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:12:30.291+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:12:30.291+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:12:30.323+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:12:30.323+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:12:00+00:00, run_after=2023-03-12T13:13:00+00:00
+[2023-03-12T13:12:30.341+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.093 seconds
+[2023-03-12T13:13:00.438+0000] {processor.py:153} INFO - Started process (PID=884) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:13:00.439+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:13:00.439+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:13:00.439+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:13:00.463+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:13:00.492+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:13:00.492+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:13:00.542+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:13:00.541+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:13:00+00:00, run_after=2023-03-12T13:14:00+00:00
+[2023-03-12T13:13:00.569+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.134 seconds
+[2023-03-12T13:13:30.599+0000] {processor.py:153} INFO - Started process (PID=991) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:13:30.600+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:13:30.601+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:13:30.601+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:13:30.618+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:13:30.643+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:13:30.642+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:13:30.680+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:13:30.679+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:13:00+00:00, run_after=2023-03-12T13:14:00+00:00
+[2023-03-12T13:13:30.699+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.102 seconds
+[2023-03-12T13:14:00.751+0000] {processor.py:153} INFO - Started process (PID=1081) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:14:00.752+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:14:00.753+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:14:00.752+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:14:00.771+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:14:00.796+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:14:00.796+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:14:00.830+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:14:00.829+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:13:00+00:00, run_after=2023-03-12T13:14:00+00:00
+[2023-03-12T13:14:00.848+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.101 seconds
+[2023-03-12T13:14:30.916+0000] {processor.py:153} INFO - Started process (PID=1199) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:14:30.917+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:14:30.917+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:14:30.917+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:14:30.933+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:14:30.956+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:14:30.956+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:14:30.990+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:14:30.990+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:14:00+00:00, run_after=2023-03-12T13:15:00+00:00
+[2023-03-12T13:14:31.010+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.097 seconds
+[2023-03-12T13:15:01.304+0000] {processor.py:153} INFO - Started process (PID=1293) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:15:01.305+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:15:01.306+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:15:01.305+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:15:01.324+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:15:01.352+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:15:01.352+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:15:01.388+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:15:01.388+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:15:00+00:00, run_after=2023-03-12T13:16:00+00:00
+[2023-03-12T13:15:01.407+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.107 seconds
+[2023-03-12T13:15:31.620+0000] {processor.py:153} INFO - Started process (PID=1383) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:15:31.620+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:15:31.621+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:15:31.621+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:15:31.638+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:15:31.667+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:15:31.667+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:15:31.707+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:15:31.707+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:15:00+00:00, run_after=2023-03-12T13:16:00+00:00
+[2023-03-12T13:15:31.724+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.107 seconds
+[2023-03-12T13:16:01.785+0000] {processor.py:153} INFO - Started process (PID=1501) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:16:01.786+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:16:01.787+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:16:01.787+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:16:01.804+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:16:01.859+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:16:01.858+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:16:01.895+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:16:01.895+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:16:00+00:00, run_after=2023-03-12T13:17:00+00:00
+[2023-03-12T13:16:01.917+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.135 seconds
+[2023-03-12T13:16:12.701+0000] {processor.py:153} INFO - Started process (PID=64) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:16:12.702+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:16:12.702+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:16:12.702+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:16:12.718+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:16:12.862+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:16:12.862+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:16:12.895+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:16:12.895+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:16:00+00:00, run_after=2023-03-12T13:17:00+00:00
+[2023-03-12T13:16:12.915+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.217 seconds
+[2023-03-12T13:16:43.665+0000] {processor.py:153} INFO - Started process (PID=179) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:16:43.666+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:16:43.667+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:16:43.666+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:16:43.683+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:16:43.704+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:16:43.704+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:16:43.738+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:16:43.737+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:16:00+00:00, run_after=2023-03-12T13:17:00+00:00
+[2023-03-12T13:16:43.760+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.097 seconds
+[2023-03-12T13:17:14.595+0000] {processor.py:153} INFO - Started process (PID=274) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:17:14.596+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:17:14.597+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:17:14.597+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:17:14.612+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:17:14.633+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:17:14.632+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:17:14.670+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:17:14.670+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:17:00+00:00, run_after=2023-03-12T13:18:00+00:00
+[2023-03-12T13:17:14.690+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.098 seconds
+[2023-03-12T13:17:45.069+0000] {processor.py:153} INFO - Started process (PID=374) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:17:45.070+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:17:45.071+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:17:45.071+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:17:45.087+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:17:45.110+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:17:45.110+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:17:45.145+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:17:45.145+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:17:00+00:00, run_after=2023-03-12T13:18:00+00:00
+[2023-03-12T13:17:45.172+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.106 seconds
+[2023-03-12T13:18:15.498+0000] {processor.py:153} INFO - Started process (PID=487) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:18:15.499+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:18:15.499+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:18:15.499+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:18:15.515+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:18:15.536+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:18:15.536+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:18:15.574+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:18:15.573+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:18:00+00:00, run_after=2023-03-12T13:19:00+00:00
+[2023-03-12T13:18:15.590+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.095 seconds
+[2023-03-12T13:18:45.726+0000] {processor.py:153} INFO - Started process (PID=577) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:18:45.727+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:18:45.728+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:18:45.728+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:18:45.744+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:18:45.770+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:18:45.769+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:18:45.803+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:18:45.803+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:18:00+00:00, run_after=2023-03-12T13:19:00+00:00
+[2023-03-12T13:18:45.823+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.100 seconds
+[2023-03-12T13:19:15.855+0000] {processor.py:153} INFO - Started process (PID=696) to work on /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:19:15.856+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/child_master_dag.py for tasks to queue
+[2023-03-12T13:19:15.856+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:19:15.856+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:19:15.872+0000] {processor.py:753} INFO - DAG(s) dict_keys(['Dag_master']) retrieved from /opt/airflow/dags/child_master_dag.py
+[2023-03-12T13:19:15.893+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:19:15.893+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T13:19:15.926+0000] {logging_mixin.py:137} INFO - [2023-03-12T13:19:15.925+0000] {dag.py:3441} INFO - Setting next_dagrun for Dag_master to 2023-03-12T13:19:00+00:00, run_after=2023-03-12T13:20:00+00:00
+[2023-03-12T13:19:15.943+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/child_master_dag.py took 0.092 seconds
